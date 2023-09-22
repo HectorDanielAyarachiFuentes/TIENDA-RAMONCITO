@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             // Itera a través de los datos de los Pokémon en el JSON
             data.forEach((pokemonData) => {
-                // Crea el contenido HTML con el botón "Ver Más"
+                // Crea el contenido HTML con elñ botón "Ver Más"
                 const htmlContent = `
                     <div class="pokemon-card">
                         <h2>${pokemonData.nombre}</h2>
