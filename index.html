@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link type="image/png" sizes="120x120" rel="icon"
         href="https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO-POKEMONS/blob/main/Fotos/umbrella-corporation-120.png?raw=true">
 </head>
+
 <body>
     <header class="header">
         <h1>Bienvenido al Comercio Digital de Pokémon</h1>
@@ -19,15 +21,22 @@
             <div class="bar"></div>
             <div class="bar"></div>
         </div>
-        <span id="ramoncito"> TIENDA RAMONCITO</span>
+        <span id="ramoncito">TIENDA RAMONCITO</span>
+        <div class="w3-container">
+            <!-- Añadir el reproductor de audio oculto -->
+            <audio id="audio-player" style="display: none;" controls>
+                <source src="https://www.cjoint.com/doc/23_09/MIwusXVTDcd_SaveTube.io---Pokémon---¡Atrápalos-Ya-Latino-Oscar-Roa-Full-128-kbps-.mp3" type="audio/mpeg">
+                Tu navegador no admite la reproducción de audio.
+            </audio>
+        </div>        
         <ul class="navbar-menu" id="navbarMenu">
             <li><a href="index.html">INICIO</a></li>
             <li><a href="index-picachu.html">CATALOGO</a></li>
-            <li><a href="https://hectordanielayarachifuentes.github.io/venta-tarjetas-pokemon/">TARJETAS POKEMON</a></li>
-
+            <li><a href="https://hectordanielayarachifuentes.github.io/venta-tarjetas-pokemon/">TARJETAS POKEMON</a>
+            </li>
             <!-- Agrega más enlaces según sea necesario -->
         </ul>
-      <button id="modoBoton" onclick="cambiarModo()">Modo claro</button> <!-- Botón de cambio de modo -->
+        <button id="modoBoton" onclick="cambiarModo()">Modo claro</button> <!-- Botón de cambio de modo -->
     </div>
     <div class="content">
         <p>En nuestro Comercio Digital de Pokémon, ofrecemos una selección exclusiva de los mejores Pokémons para
@@ -83,6 +92,27 @@
         <p>¡Atrápalos ya, o al menos clónalos!</p>
     </footer>
     <script src="script.js"></script>
+    <script>
+        // Obtener referencias a elementos HTML
+        var audioPlayer = document.getElementById("audio-player");
+        var ramoncito = document.getElementById("ramoncito");
+
+        // Agregar un controlador de eventos para el clic en el elemento <span>
+        ramoncito.addEventListener("click", function() {
+            // Si el audio está pausado, reproducirlo; de lo contrario, pausarlo
+            if (audioPlayer.paused) {
+                audioPlayer.play();
+            } else {
+                audioPlayer.pause();
+            }
+        });
+    </script>
+    <style>
+        /* Estilo para el cursor de mano */
+        #ramoncito {
+            cursor: pointer;
+        }
+    </style>
 </body>
 
 </html>
