@@ -47,7 +47,7 @@ function realizarCompra() {
         alert("Por favor, ingrese una cantidad válida.");
     } else {
         const total = cantidad * precioUnitario;
-        
+
         const confirmacion = confirm(`¿Desea comprar ${cantidad} ${selectedPokemon.nombre}(s) por un total de $${total.toFixed(2)}?`);
         
         if (confirmacion) {
