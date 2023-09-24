@@ -12,7 +12,8 @@
         },
         "compra": "Puedes comprar a Pikachu en la tienda Pokémon.",
         "precio": 200.055,
-        "votacion": 10
+        "votacion": 10,
+        "header": "⚡PIKACHU⚡"
     },
     {
         "id": 2,
@@ -27,7 +28,8 @@
         },
         "compra": "Puedes comprar a Charizard en la tienda Pokémon.",
         "precio": 300.222,
-        "votacion": 4
+        "votacion": 4,
+        "header": "🔥CHARIZARD🔥"
     },
     {
         "id": 3,
@@ -42,6 +44,7 @@
         },
         "compra": "Puedes comprar a Gengar en la tienda Pokémon.",
         "precio": 100.666,
-        "votacion": 5
+        "votacion": 5,
+        "header": "😈GENGAR😈"
     }
 ]
