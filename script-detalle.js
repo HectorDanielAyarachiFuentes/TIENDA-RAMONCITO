@@ -9,17 +9,21 @@ document.addEventListener("DOMContentLoaded", function () {
     if (selectedPokemon) {
         // Crea el contenido HTML con los detalles del Pokémon
         const detalleHtml = `
-            <div class="pokemon-card">
-                <h2>${selectedPokemon.nombre}</h2>
-                <img src="${selectedPokemon.imagen}" alt="${selectedPokemon.nombre} Image">
-                <p><strong>Descripción:</strong> ${selectedPokemon.descripcion}</p>
-                <p><strong>Tipo:</strong> ${selectedPokemon.caracteristicas.tipo}</p>
-                <p><strong>Habilidad:</strong> ${selectedPokemon.caracteristicas.habilidad}</p>
-                <p><strong>Poder:</strong> ${selectedPokemon.caracteristicas.poder}</p>
-                <p><strong>Votación:</strong> ${selectedPokemon.votacion}</p>
-                <p id="precioPokemon"><strong>Precio:</strong> $${selectedPokemon.precio}</p>
-                <button onclick="goToIndex()" class="volver-button">Volver Atrás</button>
-            </div>
+        <header class="header">
+        <h1>${selectedPokemon.header}</h1>
+        <p>Solo disponibles los mejores Pokémon:</p>
+    </header>
+    <div class="pokemon-card">
+        <h2>${selectedPokemon.nombre}</h2>
+        <img src="${selectedPokemon.imagen}" alt="${selectedPokemon.nombre} Image">
+        <p><strong>Descripción:</strong> ${selectedPokemon.descripcion}</p>
+        <p><strong>Tipo:</strong> ${selectedPokemon.caracteristicas.tipo}</p>
+        <p><strong>Habilidad:</strong> ${selectedPokemon.caracteristicas.habilidad}</p>
+        <p><strong>Poder:</strong> ${selectedPokemon.caracteristicas.poder}</p>
+        <p><strong>Votación:</strong> ${selectedPokemon.votacion}</p>
+        <p id="precioPokemon"><strong>Precio:</strong> $${selectedPokemon.precio}</p>
+        <button onclick="goToIndex()" class="volver-button">Volver Atrás</button>
+    </div>
         `;
         // Agrega el contenido al contenedor pokemonDetails
         const pokemonDetails = document.getElementById("pokemon-details");
