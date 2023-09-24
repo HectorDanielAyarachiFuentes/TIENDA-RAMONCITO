@@ -386,3 +386,15 @@ body.dark-mode .content p {
     color: #fff; /* Cambiar el color del texto de los párrafos en modo oscuro */
     /* Agrega otros estilos de resaltado para el texto en blanco aquí */
 }
+/* Media query para pantallas con un ancho máximo de 320px (pantallas pequeñas) */
+@media screen and (max-width: 320px) {
+    .header h1 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .header p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
