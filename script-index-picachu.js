@@ -1,17 +1,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     // URL del JSON (reemplaza con la ubicación real del JSON)
     const jsonURL = "datos.json"; // Cambia el nombre del archivo a "datos.json" si está en la misma ubicación
-
     // Elemento donde se mostrarán los Pokémon
     const pokemonContainer = document.getElementById("pokemon-container");
-
     // Realiza una solicitud para cargar el JSON
     fetch(jsonURL)
         .then((response) => response.json())
         .then((data) => {
             // Almacena los datos del JSON en localStorage
             localStorage.setItem("pokemonDatos", JSON.stringify(data));
-
             // Itera a través de los datos de los Pokémon en el JSON
             data.forEach((pokemonData) => {
                 // Crea el contenido HTML con elñ botón "Ver Más"
@@ -24,7 +21,6 @@ document.addEventListener("DOMContentLoaded", function () {
                         
                     </div>
                 `;
-
                 // Agrega el contenido HTML al contenedor de Pokémon
                 pokemonContainer.innerHTML += htmlContent;
             });

@@ -7,24 +7,20 @@ body {
     margin: 0;
     padding: 0;
 }
-
 /* Estilos para el modo oscuro */
 body.dark-mode {
     background-color: #1b9843; /* Fondo gris oscuro */
     color: #fff; /* Texto blanco */
 }
-
 .header {
     text-align: center;
     padding: 20px;
     background-color: #FFCB05; /* Amarillo Pokémon para el encabezado */
 }
-
 .header h1 {
     font-size: 36px;
     margin: 0;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -33,43 +29,34 @@ body.dark-mode {
     color: #fff; /* Texto blanco */
     padding: 10px 20px;
 }
-
 .navbar-toggle {
     display: none;
     flex-direction: column;
     cursor: pointer;
 }
-
 .bar {
     width: 25px;
     height: 3px;
     background-color: #fff; /* Líneas blancas para el icono de hamburguesa */
     margin: 3px 0;
 }
-
 #ramoncito {
     font-size: 24px;
     font-weight: bold;
-
 }
-
 .navbar-menu {
     list-style-type: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
-
 .navbar-menu li {
     margin-right: 20px;
 }
-
 .navbar-menu a {
     text-decoration: none;
     color: #fff; /* Texto blanco para los enlaces */
 }
-
-
 /* Estilos para el modo oscuro VENTANA EMERGENTE */
 .dark-mode {
     background-color: #121212 !important;
@@ -79,18 +66,12 @@ body.dark-mode {
     color: #1100ff !important; /* Cambia el color del encabezado en modo oscuro */
 }
 /* Agrega otros estilos para elementos específicos aquí */
-
-
-
-
-
 /* Estilos para dispositivos móviles */
 @media screen and (max-width: 768px) {
     .navbar-toggle {
         display: flex;
         justify-content: center; /* Centra horizontalmente */
     }
-
     .navbar-menu {
         display: none;
         flex-direction: column;
@@ -101,11 +82,9 @@ body.dark-mode {
         width: 100%;
         align-items: center; /* Centra verticalmente */
     }
-
     .navbar-menu.show {
         display: flex;
     }
-
     .navbar-menu li {
         margin: 10px 0;
     }
@@ -113,7 +92,6 @@ body.dark-mode {
         font-size: 24px;
         font-weight: bold;
         margin:20px
-
     }
 }
  /* Estilos para hacer que el texto sea responsivo a 320px */
@@ -121,7 +99,6 @@ body.dark-mode {
     #titulo {
         font-size: 28px; /* Tamaño de fuente más pequeño para pantalla pequeña */
     }
-
     #descripcion {
         font-size: 14px; /* Tamaño de fuente más pequeño para pantalla pequeña */
     }
@@ -135,12 +112,10 @@ body.dark-mode {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-
 .content p {
     font-size: 16px;
     line-height: 1.5;
 }
-
 /* Estilos para el footer */
 .footer {
     background-color: #0055A4; /* Azul Pokémon */
@@ -149,46 +124,36 @@ body.dark-mode {
     padding: 20px;
     font-size: 14px;
 }
-
 footer a {
     color: #FFCB05; /* Amarillo Pokémon para los enlaces en el footer */
     text-decoration: none;
 }
-
 footer a:hover {
     text-decoration: underline; /* Subraya los enlaces al pasar el mouse */
 }
-
-
 /* Estilos para la barra de navegación en modo oscuro */
 body.dark-mode .navbar {
     background-color: #222; /* Cambiar el color de fondo de la barra de navegación en modo oscuro */
     color: #fff; /* Cambiar el color del texto en modo oscuro */
 }
-
-
 /* Estilos para el footer en modo oscuro */
 body.dark-mode .footer {
     background-color: #111; /* Cambiar el color de fondo del footer en modo oscuro */
     color: #fff; /* Cambiar el color del texto del footer en modo oscuro */
 }
-
 /* Estilos para los enlaces en modo oscuro */
 body.dark-mode a {
     color: #2cad2a; /* Cambiar el color de los enlaces en modo oscuro */
 }
-
 /* Estilos para los enlaces en el footer en modo oscuro */
 body.dark-mode .footer a {
     color: #FFCB05; /* Cambiar el color de los enlaces en el footer en modo oscuro */
 }
-
 /* Estilos para el botón de modo oscuro en modo oscuro */
 body.dark-mode #modoBoton {
     background-color: #FFCB05; /* Cambiar el color de fondo del botón de modo oscuro en modo oscuro */
     color: #333; /* Cambiar el color del texto del botón de modo oscuro en modo oscuro */
 }
-
 /* PICACHU HTML ATENCION!!!/*
 /* Estilo para los divs de las tarjetas de Pokémon */
 .pokemon-card {
@@ -198,7 +163,6 @@ body.dark-mode #modoBoton {
     margin-bottom: 20px; /* Espacio entre las tarjetas */
     text-align: center; /* Alineación de texto en el centro */
 }
-
 /* Estilo para la tarjeta especial con degradado de colores Pokémon */
 .special-pokemon-card {
     background: linear-gradient(45deg, #FF5959, #FFCB05, #253B80); /* Degradado de colores Pokémon */
@@ -208,24 +172,20 @@ body.dark-mode #modoBoton {
     margin-bottom: 20px; /* Espacio entre las tarjetas */
     text-align: center; /* Alineación de texto en el centro */
 }
-
 .pokemon-card img {
     max-width: 100%; /* Imágenes ajustadas al ancho de la tarjeta */
     height: auto; /* Altura automática */
     margin-bottom: 10px; /* Espacio entre la imagen y el texto */
 }
-
 .pokemon-card h2 {
     color: #253B80; /* Texto azul para el título */
     font-size: 24px; /* Tamaño de fuente para el título */
     margin-bottom: 10px; /* Espacio entre el título y el párrafo */
 }
-
 .pokemon-card p {
     color: #333; /* Texto negro */
     font-size: 16px; /* Tamaño de fuente para el texto */
 }
-
 /*/ botones de picachu html
 /* Estilos base para los botones */
 .ver-mas-button,
@@ -241,28 +201,24 @@ body.dark-mode #modoBoton {
     width: 100%; /* Para que ocupe todo el ancho disponible */
     padding: 10px 20px; /* Tamaño de relleno predeterminado */
 }
-
 /* Estilo para el botón "Compra" */
 .compra-button {
     background-color: #4CAF50; /* Verde */
     color: #fff; /* Texto en color blanco */
     padding: 12px 24px; /* Tamaño más grande */
 }
-
 /* Estilo para el botón "Volver Atrás" */
 .volver-button {
     background-color: #0074e4; /* Azul */
     color: #fff; /* Texto en color blanco */
     padding: 12px 24px; /* Tamaño más grande */
 }
-
 /* Estilo para el botón "Modo" */
 #modoBoton {
     background-color: #ffcc29; /* Amarillo claro - color de Pokémon tipo eléctrico */
     color: #000; /* Texto en color negro */
     padding: 8px 16px; /* Tamaño más pequeño */
 }
-
 /* Estilos al pasar el mouse sobre los botones */
 .ver-mas-button:hover, 
 .compra-button:hover,
@@ -270,7 +226,6 @@ body.dark-mode #modoBoton {
 #modoBoton:hover {
     background-color: #fbb03b; /* Amarillo más oscuro al pasar el mouse */
 }
-
 /* Media query para pantallas con un ancho máximo de 320px */
 @media screen and (max-width: 320px) {
     .ver-mas-button,
@@ -280,10 +235,6 @@ body.dark-mode #modoBoton {
         padding: 10px 20px; /* Volver al tamaño original para todos los botones */
     }
 }
-
-
-
-
 /*/*VENANA EMERGENTE*/
 /* Estilos para la ventana emergente */
 .ventana-emergente {
@@ -299,8 +250,6 @@ body.dark-mode #modoBoton {
     overflow-y: auto; /* Habilita el desplazamiento vertical solo dentro de la ventana emergente */
     max-height: 100vh; /* Establece la altura máxima al alto de la ventana */
 }
-
-
 /* Estilos para el botón de cerrar */
 .cerrar {
     position: absolute;
@@ -308,7 +257,6 @@ body.dark-mode #modoBoton {
     right: 10px;
     cursor: pointer;
 }
-
 /* Media query para pantallas con un ancho máximo de 320px (móviles pequeños) */
 @media (max-width: 320px) {
     .ventana-emergente {
@@ -318,7 +266,6 @@ body.dark-mode #modoBoton {
         overflow-y: scroll; /* Habilitar el desplazamiento vertical si es necesario */
         padding: 10px; /* Espaciado interno */
     }
-
     /* Estilos para el botón de cerrar en pantallas pequeñas */
     .cerrar {
         top: 5px;
@@ -326,7 +273,6 @@ body.dark-mode #modoBoton {
         font-size: 12px;
     }
 }
-
 /* Media query para tabletas en modo retrato y paisaje */
 @media (min-width: 768px) and (max-width: 1024px) {
     .ventana-emergente {
@@ -336,7 +282,6 @@ body.dark-mode #modoBoton {
         overflow-y: scroll; /* Habilitar el desplazamiento vertical si es necesario */
         padding: 15px; /* Espaciado interno */
     }
-
     /* Estilos para el botón de cerrar en tabletas */
     .cerrar {
         top: 5px;
@@ -344,7 +289,6 @@ body.dark-mode #modoBoton {
         font-size: 14px;
     }
 }
-
 /* Media query para pantallas de dispositivos móviles más grandes, como iPhone X */
 @media (min-width: 375px) and (max-width: 414px) {
     .ventana-emergente {
@@ -354,7 +298,6 @@ body.dark-mode #modoBoton {
         overflow-y: scroll; /* Habilitar el desplazamiento vertical si es necesario */
         padding: 15px; /* Espaciado interno */
     }
-
     /* Estilos para el botón de cerrar en estos dispositivos */
     .cerrar {
         top: 5px;
@@ -362,17 +305,12 @@ body.dark-mode #modoBoton {
         font-size: 14px;
     }
 }
-
 /* Agrega más media queries según sea necesario para otras resoluciones */
-
-
-
 .container {
     max-width: 1200px; /* Define el ancho máximo del contenido */
     margin: 0 auto; /* Centra el contenido en la página */
     padding: 20px; /* Agrega espacio alrededor del contenido */
 }
-
 .pokemon-details {
     background-color: #f5f5f5; /* Color de fondo para los detalles del Pokémon */
     padding: 20px; /* Espaciado interior para los detalles */
@@ -382,7 +320,6 @@ body.dark-mode #modoBoton {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra para los detalles */
 }
 /*/*COMPRA/*/
-
 .pokemon-price {
     background-color: #ffcc00; /* Amarillo - color de Pikachu */
     padding: 10px;
@@ -391,13 +328,11 @@ body.dark-mode #modoBoton {
     text-align: center;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Sombra ligera */
 }
-
 .pokemon-price label {
     font-size: 16px;
     color: #333; /* Texto negro */
     font-weight: bold;
 }
-
 .pokemon-price input[type="number"] {
     width: 50px;
     padding: 5px;
@@ -405,7 +340,6 @@ body.dark-mode #modoBoton {
     border: 1px solid #333; /* Borde negro */
     border-radius: 5px; /* Redondear las esquinas */
 }
-
 .pokemon-price .buy-button {
     background-color: #ff0000; /* Rojo - color de Poké Balls */
     color: #fff; /* Texto blanco */
@@ -414,25 +348,20 @@ body.dark-mode #modoBoton {
     border-radius: 5px; /* Redondear las esquinas */
     cursor: pointer;
 }
-
 .pokemon-price .buy-button:hover {
     background-color: #cc0000; /* Cambia el color al pasar el mouse */
 }
-
 .pokemon-price p {
     margin-top: 10px;
 }
-
 .pokemon-price strong {
     color: #333; /* Texto negro */
 }
-
 #total-price {
     color: #333; /* Texto negro */
     font-size: 18px;
     font-weight: bold;
 }
-
 /***ESTILOS DARKS***/
 /* Estilos para el div .pokemon-details en modo oscuro */
 body.dark-mode #pokemon-details {
@@ -440,13 +369,11 @@ body.dark-mode #pokemon-details {
     color: #fff; /* Cambiar el color del texto en modo oscuro */
     border: 1px solid #fff; /* Cambiar el borde en modo oscuro */
 }
-
 /* Estilo para resaltar el texto blanco en modo oscuro */
 body.dark-mode #pokemon-details p {
     color: #fff; /* Cambiar el color del texto de los párrafos en modo oscuro */
     /* Agrega otros estilos de resaltado para el texto en blanco aquí */
 }
-
 /* Estilos para el div .content en modo oscuro */
 body.dark-mode .content {
     background-color: #000000; /* Cambiar el color de fondo en modo oscuro */
@@ -454,7 +381,6 @@ body.dark-mode .content {
     border: 1px solid #fff; /* Cambiar el borde en modo oscuro */
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2); /* Sombra en modo oscuro */
 }
-
 /* Estilo para resaltar el texto blanco en modo oscuro en el div .content */
 body.dark-mode .content p {
     color: #fff; /* Cambiar el color del texto de los párrafos en modo oscuro */
