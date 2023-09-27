@@ -405,3 +405,14 @@ body.dark-mode .content p {
     left: 0; /* Alinearlo a la izquierda */
     z-index: 999; /* Ajustar la capa para que esté por encima de otros elementos */
 }
+
+        A {
+            text-decoration: none;
+        }
+
+       
+        /* Estilo para el cursor de mano */
+        #ramoncito {
+            cursor: pointer;
+        }
+   

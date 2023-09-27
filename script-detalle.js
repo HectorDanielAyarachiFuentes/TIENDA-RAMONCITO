@@ -71,7 +71,7 @@ let cerrarVentana = false;
             } else {
                 // Cancelar la compra y marcar para cerrar la ventana de alerta
                 cerrarVentana = true;
-                window.alert('Compra cancelada.');
+                window.alert('Compra cancelada. NO ERES UN DIGNO MAESTRO POKEMON ADIOS!!!');
             }
         }
         
@@ -88,3 +88,15 @@ let cerrarVentana = false;
                 window.alert('Enviando... Solo espera tu Pokémon');
             }
         });
+ // Obtener referencias a elementos HTML
+ var audioPlayer = document.getElementById("audio-player");
+ var ramoncito = document.getElementById("ramoncito");
+ // Agregar un controlador de eventos para el clic en el elemento <span>
+ ramoncito.addEventListener("click", function() {
+     // Si el audio está pausado, reproducirlo; de lo contrario, pausarlo
+     if (audioPlayer.paused) {
+         audioPlayer.play();
+     } else {
+         audioPlayer.pause();
+     }
+ });
