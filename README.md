@@ -1,8 +1,18 @@
-## Tienda Ramoncito - Experiencia de Compra Moderna
+# Tienda Ramoncito - Experiencia de Compra Moderna
 
 ¡Bienvenidos a Tienda Ramoncito! En nuestra tienda, hemos implementado características avanzadas para mejorar su experiencia de compra. A continuación, le presentamos cómo hemos utilizado diversas herramientas de JavaScript para lograrlo:
 
-![Tienda Ramoncito](tu-imagen.jpg)
+## Pokémon Store
+
+![Pokémon Store](https://hectordanielayarachifuentes.github.io/TARJETAS-POKEMON-STORE/index.html)
+
+En la Pokémon Store, encontrarás una amplia selección de tarjetas de Pokémon para coleccionar. Nuestra tienda utiliza tecnología moderna para brindarte una experiencia de compra fluida y agradable. ¡Explora nuestra colección y encuentra tus tarjetas favoritas!
+
+## Programador Ahorcado
+
+![Programador Ahorcado](https://hectordanielayarachifuentes.github.io/ahorcado/)
+
+El Programador Ahorcado es un divertido juego de palabras para poner a prueba tus habilidades de programación. Adivina la palabra oculta antes de que se complete el dibujo del ahorcado. ¡Demuestra tus conocimientos y diviértete al mismo tiempo!
 
 ### Uso de Fetch + Asincronismo
 
@@ -18,15 +28,4 @@ fetch('productos.json')
   .catch(error => {
     console.error('Error al cargar los productos:', error);
   });
-// Ejemplo de código para manejar eventos
-document.getElementById('agregar-al-carrito').addEventListener('click', () => {
-  // Agregar producto seleccionado al carrito
-});
 
-// Otra manipulación del DOM para mostrar productos
-
-// Ejemplo de código para almacenar en LocalStorage
-localStorage.setItem('carrito', JSON.stringify(carrito));
-
-
-Recuerda reemplazar `'tu-imagen.jpg'` con la URL o la ruta de la imagen que desees mostrar en tu documento Markdown. Además, debes completar el código JavaScript con la lógica específica de tu tienda en las secciones marcadas como ejemplos. Esto ayudará a ilustrar cómo se integran las herramientas de JavaScript en tu sitio web.
