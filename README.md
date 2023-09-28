@@ -5,7 +5,10 @@
 
 ## Pokémon Store
 
-![Pokémon Store](https://hectordanielayarachifuentes.github.io/TARJETAS-POKEMON-STORE/index.html)
+### [Pokémon Store](https://hectordanielayarachifuentes.github.io/TARJETAS-POKEMON-STORE/index.html)
+
+Explora nuestra tienda de Tarjetas Pokémon, donde encontrarás una amplia selección de tarjetas de Pokémon, desde las más clásicas hasta las más recientes. ¡Haz clic en el enlace para explorar nuestra colección y descubrir tarjetas únicas!
+
 ![Ejemplo de imagen](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/Opera%20Instant%C3%A1nea_2023-09-28_163335_hectordanielayarachifuentes.github.io.png?raw=true)
 
 
