@@ -24,3 +24,9 @@ document.getElementById('agregar-al-carrito').addEventListener('click', () => {
 });
 
 // Otra manipulación del DOM para mostrar productos
+
+// Ejemplo de código para almacenar en LocalStorage
+localStorage.setItem('carrito', JSON.stringify(carrito));
+
+
+Recuerda reemplazar `'tu-imagen.jpg'` con la URL o la ruta de la imagen que desees mostrar en tu documento Markdown. Además, debes completar el código JavaScript con la lógica específica de tu tienda en las secciones marcadas como ejemplos. Esto ayudará a ilustrar cómo se integran las herramientas de JavaScript en tu sitio web.
