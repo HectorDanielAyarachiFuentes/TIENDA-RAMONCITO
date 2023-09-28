@@ -5,7 +5,10 @@
 ## Pokémon Store
 
 ![Pokémon Store](https://hectordanielayarachifuentes.github.io/TARJETAS-POKEMON-STORE/index.html)
-![Texto alternativo]([URL de la imagen](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/Opera%20Instant%C3%A1nea_2023-09-28_163335_hectordanielayarachifuentes.github.io.png?raw=true))
+![Ejemplo de imagen](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/Opera%20Instant%C3%A1nea_2023-09-28_163335_hectordanielayarachifuentes.github.io.png?raw=true)
+
+
+
 
 
 En la Pokémon Store, encontrarás una amplia selección de tarjetas de Pokémon para coleccionar. Nuestra tienda utiliza tecnología moderna para brindarte una experiencia de compra fluida y agradable. ¡Explora nuestra colección y encuentra tus tarjetas favoritas!
