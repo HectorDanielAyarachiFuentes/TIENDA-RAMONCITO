@@ -16,6 +16,7 @@ En la Pokémon Store, encontrarás una amplia selección de tarjetas de Pokémon
 ## Programador Ahorcado
 
 ![Programador Ahorcado](https://hectordanielayarachifuentes.github.io/ahorcado/)
+![Ejemplo de imagen](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/Opera%20Instant%C3%A1nea_2023-09-28_163346_hectordanielayarachifuentes.github.io.png?raw=true)
 
 El Programador Ahorcado es un divertido juego de palabras para poner a prueba tus habilidades de programación. Adivina la palabra oculta antes de que se complete el dibujo del ahorcado. ¡Demuestra tus conocimientos y diviértete al mismo tiempo!
 
