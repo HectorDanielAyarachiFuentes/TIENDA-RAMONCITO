@@ -17,14 +17,15 @@ Explora el código fuente de nuestra Tienda de Tarjetas Pokémon en GitHub. Si e
 
 ¿Listo para un desafío? Juega a nuestro emocionante juego del Ahorcado en línea. Elige tus palabras con cuidado y adivina la palabra oculta antes de que se complete el dibujo del ahorcado. ¡Pon a prueba tus habilidades lingüísticas ahora mismo!
 ![Programador Ahorcado](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/Opera%20Instant%C3%A1nea_2023-09-28_163346_hectordanielayarachifuentes.github.io.png?raw=true)
-### Uso de Fetch + Asincronismo
 
-Hemos implementado la funcionalidad de "Cargar Productos" utilizando `fetch` para obtener datos de un archivo JSON de manera asincrónica. Esto garantiza que siempre tengamos los productos más actualizados.
 ### [Programador Ahorcado (Repositorio en GitHub)](https://github.com/HectorDanielAyarachiFuentes/ahorcado)
 
 Explora el código fuente de nuestro juego del Ahorcado para programadores en GitHub. Si te interesa el desarrollo o deseas contribuir, ¡aquí encontrarás el repositorio correspondiente!
 
-Sobre algunas partes del codigo.
+### Uso de Fetch + Asincronismo
+
+Hemos implementado la funcionalidad de "Cargar Productos" utilizando `fetch` para obtener datos de un archivo JSON de manera asincrónica. Esto garantiza que siempre tengamos los productos más actualizados.
+
 ```javascript
 // Ejemplo de código de Fetch
 fetch('productos.json')
