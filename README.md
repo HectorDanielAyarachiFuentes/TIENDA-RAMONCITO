@@ -24,7 +24,7 @@ Explora el código fuente de nuestro juego del Ahorcado para programadores en Gi
 
 ### Uso de Fetch + Asincronismo
 
-Hemos implementado la funcionalidad de "Cargar Productos" utilizando `fetch` para obtener datos de un archivo JSON de manera asincrónica. Esto garantiza que siempre tengamos los productos más actualizados.
+Hemos implementado la funcionalidad de "Cargar Productos" utilizando `fetch` para obtener datos de un archivo JSON de manera asincrónica. Esto garantiza que siempre tengamos los productos más actualizado.
 
 ```javascript
 // Ejemplo de código de Fetch
