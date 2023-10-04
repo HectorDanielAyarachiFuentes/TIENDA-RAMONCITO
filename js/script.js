@@ -58,3 +58,5 @@ if (body.classList.contains('modo-oscuro')) {
                 audioPlayer.pause();
             }
         });
+// Almacena los datos del JSON en localStorage
+localStorage.setItem("pokemonDatos", JSON.stringify(data));
