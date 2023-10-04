@@ -2,7 +2,28 @@
 ### [Tienda Ramoncito](https://hectordanielayarachifuentes.github.io/TIENDA-RAMONCITO/)
 
 ¡Bienvenidos a Tienda Ramoncito! En nuestra tienda, hemos implementado características avanzadas para mejorar su experiencia de compra. A continuación, le presentamos cómo hemos utilizado diversas herramientas de JavaScript para lograrlo. Explora nuestra tienda en línea y descubre las sorpresas que tenemos para ti.
+
 ![Inicio de comercio pokemon](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/Opera%20Instant%C3%A1nea_2023-09-28_163500_hectordanielayarachifuentes.github.io.png?raw=true)
+
+## Experiencia Responsiva
+
+Hemos trabajado en asegurarnos de que su experiencia en Tienda Ramoncito sea perfecta, independientemente del dispositivo que utilice. Ya sea en una notebook o en un celular, hemos adaptado nuestra tienda para brindarle la mejor experiencia posible.
+
+### Notebook
+
+En una notebook, Tienda Ramoncito luce espectacular. Hemos diseñado la interfaz para aprovechar al máximo la pantalla grande de su dispositivo. Puede disfrutar de imágenes detalladas, descripciones completas y una navegación suave.
+
+![Notebook](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/pikachu%20pantalla%20notebook.gif?raw=true)
+
+### Celular
+
+Sabemos que muchos de ustedes prefieren comprar desde sus celulares, por lo que hemos optimizado nuestra tienda para pantallas más pequeñas. La navegación es intuitiva, las imágenes se adaptan perfectamente y puede disfrutar de su experiencia de compra en cualquier lugar.
+
+![Celular](https://github.com/HectorDanielAyarachiFuentes/TIENDA-RAMONCITO/blob/main/Fotos%20readme/celular%20pikachu.gif?raw=true)
+
+¡Esperamos que disfrute de su experiencia de compra en Tienda Ramoncito, sin importar el dispositivo que utilice! Gracias por visitarnos.
+
+
 ## Pokémon Store
 ### [Pokémon Store](https://hectordanielayarachifuentes.github.io/TARJETAS-POKEMON-STORE/index.html)
 
