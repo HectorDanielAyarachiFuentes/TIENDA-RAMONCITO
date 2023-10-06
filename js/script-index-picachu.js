@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error("Error al cargar el JSON:", error);
         });
 });
+// Almacena los datos del JSON en localStorage
+localStorage.setItem("pokemonDatos", JSON.stringify(data));
  // Obtener referencias a elementos HTML
  var audioPlayer = document.getElementById("audio-player");
  var ramoncito = document.getElementById("ramoncito");
