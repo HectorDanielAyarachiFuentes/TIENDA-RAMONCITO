@@ -2,7 +2,7 @@
     {
         "id": 1,
         "nombre": "Pikachu",
-        "imagen": "Fotos/pikachu.jpg",
+        "imagen": "Fotos/pikachu.png",
         "descripcion": "Pikachu es un Pokémon eléctrico muy conocido por su carisma y poder.",
         "caracteristicas": {
             "tipo": "Eléctrico",
