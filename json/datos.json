@@ -18,7 +18,7 @@
     {
         "id": 2,
         "nombre": "Charizard",
-        "imagen": "Fotos/charizard.jpg",
+        "imagen": "Fotos/charizard.png",
         "descripcion": "Charizard es un Pokémon de tipo fuego/volador, conocido por su ferocidad en batalla.",
         "caracteristicas": {
             "tipo": "Fuego/Volador",
