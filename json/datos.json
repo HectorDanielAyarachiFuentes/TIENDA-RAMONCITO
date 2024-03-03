@@ -2,7 +2,7 @@
     {
         "id": 1,
         "nombre": "Pikachu",
-        "imagen": "Fotos/FLMjsSGXsAQakfm.jpg",
+        "imagen": "Fotos/pikachu.jpg",
         "descripcion": "Pikachu es un Pokémon eléctrico muy conocido por su carisma y poder.",
         "caracteristicas": {
             "tipo": "Eléctrico",
@@ -18,7 +18,7 @@
     {
         "id": 2,
         "nombre": "Charizard",
-        "imagen": "Fotos/doge_charizard_by_rytrom27_d6snycu-fullview.jpg",
+        "imagen": "Fotos/charizard.jpg",
         "descripcion": "Charizard es un Pokémon de tipo fuego/volador, conocido por su ferocidad en batalla.",
         "caracteristicas": {
             "tipo": "Fuego/Volador",
@@ -34,7 +34,7 @@
     {
         "id": 3,
         "nombre": "Gengar",
-        "imagen": "Fotos/pngwing.com.png",
+        "imagen": "Fotos/gengar.png",
         "descripcion": "Gengar es un Pokémon de tipo fantasma/veneno que disfruta gastando bromas a otros Pokémon.",
         "caracteristicas": {
             "tipo": "Fantasma/Veneno",
