@@ -411,3 +411,25 @@ body.dark-mode .content p {
         #ramoncito {
             cursor: pointer;
         }
+
+
+
+
+
+
+
+/* Image - Para resoluciones mayores a 1300px en #pokemon-container */
+@media screen and (min-width: 1000px) {
+    #pokemon-container .pokemon-card img {
+        display: inline-block;
+        transform: translateX(0px) translateY(0px) !important;
+        max-width: 38%;
+    }
+}
+
+/* Image - Para resoluciones mayores a 1300px en #pokemon-details */
+@media screen and (min-width: 1000px) {
+    #pokemon-details .pokemon-card img {
+        max-width: 23%;
+    }
+}
